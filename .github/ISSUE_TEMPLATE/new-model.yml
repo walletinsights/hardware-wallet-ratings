@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Fill in [templates/wallet-data.yaml](https://github.com/walletinsights/hardware-wallet-ratings/blob/main/templates/wallet-data.yaml) and attach it below (rename to .txt if GitHub refuses the .yaml extension), or paste it. Unknown fields stay `null`; they score 0 until a public source exists.
+        Fill in the data sheet [templates/wallet-data.xlsx](https://github.com/walletinsights/hardware-wallet-ratings/raw/main/templates/wallet-data.xlsx) and attach it below. Unknown fields stay empty; they score 0 until a public source exists. Prefer email? Send it to contact@walletinsights.io.
   - type: input
     id: model
     attributes:
@@ -24,7 +24,7 @@ body:
     id: data
     attributes:
       label: Data file
-      description: Attach or paste the filled template
+      description: Attach the filled sheet (.xlsx)
     validations:
       required: true
   - type: dropdown

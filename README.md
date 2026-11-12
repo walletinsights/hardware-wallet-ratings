@@ -25,6 +25,7 @@ Licence: [CC BY 4.0](LICENSE). Archived on Zenodo:
 | `data/security-incidents.csv`, `data/security-incidents.json` | Security incident tracker. |
 | `METHODOLOGY.md` | The rating formula, factor by factor. |
 | `scripts/update.py` | Refreshes the snapshot from walletinsights.io and regenerates the table below. Standard library only. |
+| `scripts/build_sheet.py` | Builds the manufacturer data sheet (`templates/wallet-data.xlsx`), blank or pre-filled for one model. Needs openpyxl. |
 | `scripts/zenodo.py` | Archives a new Zenodo version when incidents change, 5+ overall ratings change, or anything changed and the last version is 30+ days old. |
 
 The live versions are always at `https://walletinsights.io/data/<file>`;
@@ -110,7 +111,7 @@ Incident fields are described in `data/security-incidents.json` (`fields`).
 ## Corrections
 
 Manufacturers: see [MANUFACTURERS.md](MANUFACTURERS.md) for every field, what counts
-as a source and how to submit a new model ([data template](templates/wallet-data.yaml)).
+as a source and how to submit a new model ([data sheet](templates/wallet-data.xlsx)).
 
 Open an issue with the field, the value you believe is correct and a
 public source (manufacturer documentation, release notes, audit report,

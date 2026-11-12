@@ -47,16 +47,25 @@ the formula.
 
 ## How to submit
 
-1. **Correction to an existing model** — open an issue with the
-   [Data correction](https://github.com/walletinsights/hardware-wallet-ratings/issues/new?template=data-correction.yml)
-   form, or email contact@walletinsights.io.
-2. **New model** — fill in [`templates/wallet-data.yaml`](templates/wallet-data.yaml)
-   (one file per model) and attach it to a
-   [New model](https://github.com/walletinsights/hardware-wallet-ratings/issues/new?template=new-model.yml)
-   issue, or email it.
+The simplest way is email: **contact@walletinsights.io**. No GitHub account
+needed.
 
-Every value needs a `source` URL. Leave a field `null` if you have no public
-source — that is better than a guess, and we will look for one.
+1. **Check what we hold for your models.** Ask us for the data sheet of a
+   model: a spreadsheet with one row per field and our current value. Correct
+   what is wrong, fill what is empty (empty rows score 0), add a public source
+   for each change, and send it back.
+2. **New model** — fill in the blank sheet
+   [`templates/wallet-data.xlsx`](templates/wallet-data.xlsx) (Excel, Google
+   Sheets or Numbers; values are picked from drop-down lists) and email it, or
+   attach it to a
+   [New model](https://github.com/walletinsights/hardware-wallet-ratings/issues/new?template=new-model.yml)
+   issue.
+3. **A single correction** — email it, or use the
+   [Data correction](https://github.com/walletinsights/hardware-wallet-ratings/issues/new?template=data-correction.yml)
+   form.
+
+Every change needs a public source URL. Leave a field empty if you have no
+public source — that is better than a guess, and we will look for one.
 
 We check every source ourselves. Accepted changes appear on the site and in
 `data/` with the next update; the change history is public in this
