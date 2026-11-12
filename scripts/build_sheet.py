@@ -71,7 +71,7 @@ FIELDS = [
     ("Usability", "connectivity_nfc", "NFC", "", B, None),
     ("Usability", "connectivity_qr", "QR codes (air-gapped)", "", B, None),
     ("Usability", "ux_configuration_time_min", "Minutes from unboxing to a ready wallet", "5–10", "number", None),
-    ("Usability", "ux_multi_language_support", "Interface languages (comma-separated)", "2–8", "text", None),
+    ("Usability", "ux_multi_language_support", "Languages of the device's own screen, comma-separated (no screen: your app's languages)", "2–8", "text", None),
     ("Ecosystem", "features_unified_accounts", "YOUR OWN app shows all networks from one seed as one portfolio with a total balance, with send/receive", "15", B, None),
     ("Ecosystem", "features_exchange_integration", "Buy / sell / swap inside your app", "15", B, None),
     ("Ecosystem", "chain_support_networks_count", "Blockchain networks supported natively", "5–20", "number", None),

@@ -133,7 +133,7 @@ element and without non-extractable keys, at 60.
 | `security_clear_signing_supported` | Does the device's own screen decode an ERC-20 `approve` (token, spender, amount) **and** EIP-712 typed data as readable fields, not only a hash? Bitcoin-only devices: true by definition | 5 | Docs, firmware changelog with version |
 | `connectivity_usb`, `connectivity_bluetooth`, `connectivity_nfc`, `connectivity_qr` | Connection methods | 7–12 | Spec sheet |
 | `ux_configuration_time_min` | Minutes from unboxing to a ready wallet | 5–10 | Setup guide; we verify |
-| `ux_multi_language_support` | Interface languages on the device/app (list) | 2–8 | Docs |
+| `ux_multi_language_support` | Languages of the device's **own screen** (firmware language setting). No screen: your companion app's languages | 2–8 | Docs, firmware/app locale files |
 
 `ux_setup_ease`, `ux_interface_quality` and `ux_learning_curve` (1–5) are
 editorial.
