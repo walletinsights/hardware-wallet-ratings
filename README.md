@@ -33,7 +33,7 @@ in git.
 ## Ratings
 
 <!-- ratings:start -->
-_Snapshot of 2026-11-11; discontinued models are in the data files but not in this table._
+_Snapshot of 2026-11-12; discontinued models are in the data files but not in this table._
 
 | # | Model | Overall | Security | Recovery | Usability | Ecosystem | Privacy | Price, USD |
 |---:|---|---:|---:|---:|---:|---:|---:|---:|
