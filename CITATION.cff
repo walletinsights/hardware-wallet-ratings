@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this data, please cite it as below and link to walletinsights.io."
+type: dataset
+title: "WalletInsights hardware wallet ratings and security incidents"
+authors:
+  - name: "WalletInsights"
+    website: "https://walletinsights.io"
+license: CC-BY-4.0
+doi: 10.5281/zenodo.24104206
+url: "https://walletinsights.io/en/methodology/"
+keywords:
+  - hardware wallet
+  - cryptocurrency
+  - security
+  - ratings
+  - dataset
