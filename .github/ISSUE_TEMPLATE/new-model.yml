@@ -1,0 +1,39 @@
+name: New model
+description: Submit a hardware wallet that is not in the data yet
+title: "[New model] <brand> <model>"
+labels: ["new-model"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Fill in [templates/wallet-data.yaml](https://github.com/walletinsights/hardware-wallet-ratings/blob/main/templates/wallet-data.yaml) and attach it below (rename to .txt if GitHub refuses the .yaml extension), or paste it. Unknown fields stay `null`; they score 0 until a public source exists.
+  - type: input
+    id: model
+    attributes:
+      label: Brand and model
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Official product page
+      placeholder: https://
+    validations:
+      required: true
+  - type: textarea
+    id: data
+    attributes:
+      label: Data file
+      description: Attach or paste the filled template
+    validations:
+      required: true
+  - type: dropdown
+    id: relation
+    attributes:
+      label: Your relation to the product
+      options:
+        - Manufacturer
+        - User
+        - Other
+    validations:
+      required: true

@@ -1,0 +1,60 @@
+name: Data correction
+description: A value in the data is wrong or missing for an existing model
+title: "[Correction] <model>: <field>"
+labels: ["data-correction"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Corrections change a score only through the formula. Every value needs a public source — see [MANUFACTURERS.md](https://github.com/walletinsights/hardware-wallet-ratings/blob/main/MANUFACTURERS.md).
+  - type: input
+    id: model
+    attributes:
+      label: Model
+      description: Name or slug as in data/wallets.csv
+      placeholder: trezor-safe-5
+    validations:
+      required: true
+  - type: input
+    id: field
+    attributes:
+      label: Field
+      description: Field key from MANUFACTURERS.md, or describe it if unsure
+      placeholder: security_clear_signing_supported
+    validations:
+      required: true
+  - type: input
+    id: value
+    attributes:
+      label: Correct value
+      placeholder: "true"
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Public source
+      description: Documentation, changelog, source code, certificate or audit report
+      placeholder: https://
+    validations:
+      required: true
+  - type: input
+    id: firmware
+    attributes:
+      label: Since firmware version
+      description: If the feature depends on the firmware version
+  - type: dropdown
+    id: relation
+    attributes:
+      label: Your relation to the product
+      options:
+        - Manufacturer
+        - User
+        - Researcher
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes

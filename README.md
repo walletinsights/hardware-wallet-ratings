@@ -109,6 +109,9 @@ Incident fields are described in `data/security-incidents.json` (`fields`).
 
 ## Corrections
 
+Manufacturers: see [MANUFACTURERS.md](MANUFACTURERS.md) for every field, what counts
+as a source and how to submit a new model ([data template](templates/wallet-data.yaml)).
+
 Open an issue with the field, the value you believe is correct and a
 public source (manufacturer documentation, release notes, audit report,
 certificate). Corrections change scores only through the formula. Unknown
