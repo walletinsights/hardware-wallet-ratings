@@ -25,6 +25,7 @@ Licence: [CC BY 4.0](LICENSE). Archived on Zenodo:
 | `data/security-incidents.csv`, `data/security-incidents.json` | Security incident tracker. |
 | `METHODOLOGY.md` | The rating formula, factor by factor. |
 | `scripts/update.py` | Refreshes the snapshot from walletinsights.io and regenerates the table below. Standard library only. |
+| `scripts/zenodo.py` | Archives a new Zenodo version when incidents change, 5+ overall ratings change, or anything changed and the last version is 30+ days old. |
 
 The live versions are always at `https://walletinsights.io/data/<file>`;
 this repository is refreshed weekly and keeps the history of every change

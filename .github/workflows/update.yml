@@ -28,3 +28,7 @@ jobs:
           git add data README.md
           git commit -m "data: refresh $(date -u +%F)"
           git push
+      - name: Archive on Zenodo when the data changed enough
+        env:
+          ZENODO_TOKEN: ${{ secrets.ZENODO_TOKEN }}
+        run: python3 scripts/zenodo.py
