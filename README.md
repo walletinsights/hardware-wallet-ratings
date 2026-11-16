@@ -35,7 +35,7 @@ in git.
 ## Ratings
 
 <!-- ratings:start -->
-_Snapshot of 2026-11-12; discontinued models are in the data files but not in this table._
+_Snapshot of 2026-11-16; discontinued models are in the data files but not in this table._
 
 | # | Model | Overall | Security | Recovery | Usability | Ecosystem | Privacy | Price, USD |
 |---:|---|---:|---:|---:|---:|---:|---:|---:|
@@ -43,24 +43,24 @@ _Snapshot of 2026-11-12; discontinued models are in the data files but not in th
 | 2 | [Trezor Safe 5](https://walletinsights.io/en/hardware-wallets/trezor-safe-5/) | **80** | 86 | 70 | 68 | 98 | 77 | 129 |
 | 3 | [BitBox02 Nova](https://walletinsights.io/en/hardware-wallets/bitbox02-nova/) | **78** | 91 | 66 | 67 | 80 | 80 | 196 |
 | 4 | [OneKey Pro](https://walletinsights.io/en/hardware-wallets/onekey-pro/) | **78** | 90 | 75 | 82 | 100 | 29 | 278 |
-| 5 | [OneKey Pro 2](https://walletinsights.io/en/hardware-wallets/onekey-pro-2/) | **77** | 88 | 75 | 82 | 100 | 29 | 299 |
+| 5 | [OneKey Pro 2](https://walletinsights.io/en/hardware-wallets/onekey-pro-2/) | **78** | 90 | 75 | 82 | 100 | 29 | 299 |
 | 6 | [OneKey Neo](https://walletinsights.io/en/hardware-wallets/onekey-neo/) | **76** | 85 | 75 | 82 | 100 | 29 | 179 |
 | 7 | [Trezor Safe 3](https://walletinsights.io/en/hardware-wallets/trezor-safe-3/) | **76** | 83 | 70 | 57 | 98 | 73 | 59 |
 | 8 | [BitBox02](https://walletinsights.io/en/hardware-wallets/bitbox02/) | **73** | 79 | 66 | 56 | 76 | 88 | 167 |
 | 9 | [Keystone 3 Pro](https://walletinsights.io/en/hardware-wallets/keystone-pro-3/) | **72** | 82 | 71 | 67 | 60 | 69 | 149 |
-| 10 | [Ledger Stax](https://walletinsights.io/en/hardware-wallets/ledger-stax/) | **70** | 83 | 58 | 66 | 100 | 33 | 399 |
+| 10 | [Ledger Stax](https://walletinsights.io/en/hardware-wallets/ledger-stax/) | **71** | 83 | 58 | 71 | 100 | 33 | 399 |
 | 11 | [Tangem Wallet (3 Cards)](https://walletinsights.io/en/hardware-wallets/tangem-wallet-3-cards/) | **70** | 78 | 74 | 86 | 77 | 21 | 69.9 |
-| 12 | [Foundation Passport Prime](https://walletinsights.io/en/hardware-wallets/foundation-passport-prime/) | **69** | 67 | 80 | 74 | 52 | 67 | 349 |
-| 13 | [Keycard Shell](https://walletinsights.io/en/hardware-wallets/keycard-shell/) | **69** | 87 | 71 | 60 | 42 | 66 | 129 |
+| 12 | [Keycard Shell](https://walletinsights.io/en/hardware-wallets/keycard-shell/) | **69** | 87 | 71 | 60 | 42 | 66 | 129 |
+| 13 | [Ledger Nano X](https://walletinsights.io/en/hardware-wallets/ledger-nano-x/) | **69** | 79 | 58 | 71 | 100 | 33 | 99 |
 | 14 | [OneKey Classic 1S](https://walletinsights.io/en/hardware-wallets/onekey-classic-1s/) | **69** | 88 | 54 | 63 | 98 | 29 | 99 |
 | 15 | [Tangem Wallet (2 Cards)](https://walletinsights.io/en/hardware-wallets/tangem-wallet-2-cards/) | **69** | 78 | 70 | 86 | 77 | 21 | 54.9 |
 | 16 | [Blockstream Jade Plus](https://walletinsights.io/en/hardware-wallets/blockstream-jade-plus/) | **68** | 71 | 66 | 60 | 67 | 77 | 149 |
-| 17 | [Ledger Nano X](https://walletinsights.io/en/hardware-wallets/ledger-nano-x/) | **68** | 79 | 58 | 66 | 100 | 33 | 99 |
-| 18 | [Blockstream Jade Core](https://walletinsights.io/en/hardware-wallets/blockstream-jade-core/) | **67** | 71 | 66 | 60 | 67 | 71 | 99 |
-| 19 | [Ledger Nano Gen5](https://walletinsights.io/en/hardware-wallets/ledger-nano-gen5/) | **67** | 75 | 54 | 71 | 100 | 33 | 179 |
-| 20 | [Ledger Nano S Plus](https://walletinsights.io/en/hardware-wallets/ledger-nano-s-plus/) | **67** | 75 | 58 | 59 | 98 | 41 | 69 |
-| 21 | [OneKey Classic 1S Pure](https://walletinsights.io/en/hardware-wallets/onekey-classic-1s-pure/) | **67** | 88 | 58 | 56 | 90 | 29 | 79 |
-| 22 | [Ledger Flex](https://walletinsights.io/en/hardware-wallets/ledger-flex/) | **66** | 75 | 54 | 62 | 100 | 33 | 249 |
+| 17 | [Foundation Passport Prime](https://walletinsights.io/en/hardware-wallets/foundation-passport-prime/) | **68** | 67 | 80 | 71 | 52 | 67 | 349 |
+| 18 | [Ledger Nano Gen5](https://walletinsights.io/en/hardware-wallets/ledger-nano-gen5/) | **68** | 75 | 54 | 76 | 100 | 33 | 179 |
+| 19 | [Ledger Nano S Plus](https://walletinsights.io/en/hardware-wallets/ledger-nano-s-plus/) | **68** | 75 | 58 | 64 | 98 | 41 | 69 |
+| 20 | [Blockstream Jade Core](https://walletinsights.io/en/hardware-wallets/blockstream-jade-core/) | **67** | 71 | 66 | 60 | 67 | 71 | 99 |
+| 21 | [Ledger Flex](https://walletinsights.io/en/hardware-wallets/ledger-flex/) | **67** | 75 | 54 | 67 | 100 | 33 | 249 |
+| 22 | [OneKey Classic 1S Pure](https://walletinsights.io/en/hardware-wallets/onekey-classic-1s-pure/) | **67** | 88 | 58 | 56 | 90 | 29 | 79 |
 | 23 | [SafePal S1](https://walletinsights.io/en/hardware-wallets/safepal-s1/) | **66** | 76 | 54 | 66 | 78 | 48 | 49.99 |
 | 24 | [SafePal X1](https://walletinsights.io/en/hardware-wallets/safepal-x1/) | **66** | 81 | 58 | 66 | 78 | 36 | 69.99 |
 | 25 | [Tangem Ring](https://walletinsights.io/en/hardware-wallets/tangem-wallet-ring/) | **66** | 78 | 70 | 70 | 77 | 21 | 160 |
@@ -70,8 +70,8 @@ _Snapshot of 2026-11-12; discontinued models are in the data files but not in th
 | 29 | [Blockstream Jade Classic](https://walletinsights.io/en/hardware-wallets/blockstream-jade/) | **63** | 61 | 66 | 56 | 67 | 71 | 79 |
 | 30 | [Coinkite Coldcard Q](https://walletinsights.io/en/hardware-wallets/coinkite-coldcard-q/) | **63** | 74 | 74 | 56 | 37 | 62 | 319 |
 | 31 | [Cypherock X1](https://walletinsights.io/en/hardware-wallets/cypherock-x1/) | **63** | 70 | 86 | 54 | 68 | 23 | 99 |
-| 32 | [SafePal S1 Pro](https://walletinsights.io/en/hardware-wallets/safepal-s1-pro/) | **63** | 72 | 54 | 71 | 78 | 34 | 89.99 |
-| 33 | [Ellipal X Card](https://walletinsights.io/en/hardware-wallets/ellipal-x-card/) | **62** | 66 | 70 | 70 | 80 | 14 | 69 |
+| 32 | [Ellipal X Card](https://walletinsights.io/en/hardware-wallets/ellipal-x-card/) | **63** | 66 | 70 | 75 | 80 | 14 | 69 |
+| 33 | [SafePal S1 Pro](https://walletinsights.io/en/hardware-wallets/safepal-s1-pro/) | **63** | 72 | 54 | 71 | 78 | 34 | 89.99 |
 | 34 | [Ellipal Titan 2](https://walletinsights.io/en/hardware-wallets/ellipal-titan-2/) | **58** | 55 | 58 | 76 | 80 | 21 | 169 |
 | 35 | [Ellipal Titan Mini](https://walletinsights.io/en/hardware-wallets/ellipal-titan-mini/) | **56** | 52 | 55 | 76 | 73 | 21 | 99 |
 | 36 | [Ngrave Zero](https://walletinsights.io/en/hardware-wallets/ngrave-zero/) | **56** | 61 | 58 | 66 | 70 | 15 | 398 |
