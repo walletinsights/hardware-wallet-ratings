@@ -73,7 +73,7 @@ FIELDS = [
     ("Usability", "ux_configuration_time_min", "Minutes from unboxing to a ready wallet", "5–10", "number", None),
     ("Usability", "ux_multi_language_support", "Languages of the device's own screen, comma-separated (no screen: your app's languages)", "2–8", "text", None),
     ("Ecosystem", "features_unified_accounts", "YOUR OWN app shows all networks from one seed as one portfolio with a total balance, with send/receive", "15", B, None),
-    ("Ecosystem", "features_exchange_integration", "Buy / sell / swap inside your app", "15", B, None),
+    ("Ecosystem", "features_exchange_integration", "Buy, sell or swap inside your own app (incl. a built-in partner; a link out does not count)", "15", B, None),
     ("Ecosystem", "chain_support_networks_count", "Blockchain networks supported natively", "5–20", "number", None),
     ("Ecosystem", "compatibility_windows", "Windows", "5–10", B, None),
     ("Ecosystem", "compatibility_macos", "macOS", "", B, None),

@@ -143,7 +143,7 @@ editorial.
 | Field | Question | Points | Typical source |
 |---|---|---:|---|
 | `features_unified_accounts` | Does **your own** companion app show all networks from one seed as one portfolio with a total balance, with send/receive from that app? | 15 | App documentation |
-| `features_exchange_integration` | Buy/sell/swap inside your app | 15 | App documentation |
+| `features_exchange_integration` | Buy, sell or swap **inside your own app**, including through a partner built into the app (MoonPay, SwapKit…). A link out to a website does not count | 15 | App documentation, help center |
 | `chain_support_networks_count` | Number of blockchain networks supported natively | 5–20 | Supported-coins page |
 | `compatibility_windows`, `compatibility_macos`, `compatibility_linux` | Desktop platforms | 5–10 | Downloads page |
 | `compatibility_ios`, `compatibility_android` | Mobile platforms | 6–10 | App stores |
