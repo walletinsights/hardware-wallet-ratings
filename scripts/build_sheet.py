@@ -47,7 +47,7 @@ FIELDS = [
     ("Security", "firmware_security_downgrade_protection", "Refuses older firmware", "4", B, None),
     ("Security", "firmware_security_rollback_prevention", "Prevents rollback after an update", "4", B, None),
     ("Security", "threat_model_supply_chain_mitigation", "Measures against tampering between factory and user †", "3", B, None),
-    ("Security", "threat_model_tamper_evident_design", "Tamper-evident enclosure or packaging †", "3", B, None),
+    ("Security", "threat_model_tamper_evident_design", "Tamper-evident packaging or enclosure AND documented steps for the buyer to check it", "3", B, None),
     ("Security", "security_software_reproducible_builds", "Firmware builds reproducibly from source", "4", B, None),
     ("Security", "security_hardware_secure_boot", "Secure boot chain", "3", B, None),
     ("Recovery", "recovery_seed_type", "Standard recovery phrases the device can create, default first", "12–25", "enum", ["BIP39", "SLIP39", "BIP39, SLIP39", "SLIP39, BIP39", "NONE"]),

@@ -100,7 +100,7 @@ definition we settle on is published here and applied to every wallet.
 | `firmware_security_downgrade_protection` | Refuses to install older firmware | 4 | Docs, source |
 | `firmware_security_rollback_prevention` | Prevents rollback after an update | 4 | Docs, source |
 | `threat_model_supply_chain_mitigation` † | Measures against tampering between factory and user | 3 | Docs |
-| `threat_model_tamper_evident_design` † | Tamper-evident enclosure or packaging | 3 | Docs |
+| `threat_model_tamper_evident_design` | Tamper-evident packaging or enclosure (seal, holographic sticker, serialised or patterned security bag) **and** documented steps for the buyer to check it before first use | 3 | Help center, setup guide |
 | `security_software_reproducible_builds` | Firmware builds reproducibly from source | 4 | Build instructions, independent verification |
 | `security_hardware_secure_boot` / `security_software_secure_boot` | Secure boot chain | 3 | Docs |
 
